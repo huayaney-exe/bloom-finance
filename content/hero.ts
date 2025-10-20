@@ -10,21 +10,21 @@ export const heroContent: HeroContent = {
     line1: "Florezcan juntos",
     line2: "financieramente",
   },
-  subtitle: "La primera tarjeta compartida para parejas que elimina las peleas por dinero.",
+  subtitle: "No más 'yo pagué esto, tú pagaste aquello'. La primera tarjeta compartida que elimina las peleas por dinero.",
   cta: {
     primary: {
-      text: "Únete gratis",
+      text: "Únete a las 2,500+ parejas",
       targetId: "waitlist-form",
     },
   },
   trustSignals: [
     {
       id: "free-year",
-      text: "Primer año gratis",
+      text: "Sin comisiones por 12 meses",
     },
     {
       id: "waitlist",
-      text: "+2,500 parejas esperando",
+      text: "Cuenta lista en 60 segundos",
     },
   ],
 };

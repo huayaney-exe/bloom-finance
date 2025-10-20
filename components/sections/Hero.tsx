@@ -33,12 +33,12 @@ export function Hero() {
               <span className="block bg-gradient-to-r from-white via-white to-white/95 bg-clip-text text-transparent">
                 {heroContent.heading.line1}
               </span>
-              <span className="block bg-gradient-to-r from-white/95 to-white/85 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-bloom-warm-white via-bloom-coral/40 to-bloom-warm-white bg-clip-text text-transparent">
                 {heroContent.heading.line2}
               </span>
             </h1>
             <p className="text-white/90 mb-10 leading-relaxed max-w-xl text-hero-subtitle">
-              {heroContent.subtitle}
+              <span className="font-bold bg-gradient-to-r from-bloom-warm-white to-bloom-coral bg-clip-text text-transparent">No más 'yo pagué esto, tú pagaste aquello'.</span> {heroContent.subtitle.replace("No más 'yo pagué esto, tú pagaste aquello'. ", "")}
             </p>
 
             {/* BIG CTAs with gradient border */}
