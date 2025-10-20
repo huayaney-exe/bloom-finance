@@ -74,4 +74,16 @@
       transform: none !important;
     }
   }
+
+  /* Hyphenation for Spanish text */
+  .hyphens-auto {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  }
+
+  /* Text balance for better line distribution */
+  .text-balance {
+    text-wrap: balance;
+  }
 }
