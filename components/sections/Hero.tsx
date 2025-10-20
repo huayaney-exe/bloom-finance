@@ -29,7 +29,7 @@ export function Hero() {
         <div className="grid md:grid-cols-2 lg:grid-cols-[1.05fr_0.95fr] xl:grid-cols-2 gap-12 lg:gap-16 items-center min-h-[600px]">
           {/* Left: Copy */}
           <div className="py-8 md:py-16 flex flex-col max-w-3xl">
-            <h1 lang="es" className="font-display font-bold tracking-tight mb-6 text-hero-heading break-words hyphens-auto text-balance">
+            <h1 className="font-display font-bold tracking-tight mb-6 text-hero-heading text-balance" style={{ hyphens: 'none', wordBreak: 'keep-all', overflowWrap: 'normal' }}>
               <span className="block bg-gradient-to-r from-white via-white to-white/95 bg-clip-text text-transparent">
                 {heroContent.heading.line1}
               </span>

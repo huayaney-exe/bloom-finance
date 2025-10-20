@@ -30,7 +30,7 @@ const config: Config = {
         "body-large": ["20px", { lineHeight: "1.6" }],
         body: ["16px", { lineHeight: "1.6" }],
         "body-small": ["14px", { lineHeight: "1.5" }],
-        "hero-heading": ["clamp(1.75rem, 3.5vw, 2.5rem)", { lineHeight: "1.2" }],
+        "hero-heading": ["clamp(1.5rem, 2.8vw, 2rem)", { lineHeight: "1.2" }],
         "hero-subtitle": ["clamp(1.125rem, 2vw, 1.5rem)", { lineHeight: "1.5" }],
       },
       borderRadius: {
